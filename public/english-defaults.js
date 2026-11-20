@@ -4,7 +4,7 @@ const englishTexts={
  rsvpGeneralHeading:"Let us know",rsvpGeneralAccent:"if you can join us.",
  rsvpToWishesBtn:"Leave a wish for us",guestbookEyebrow:"06 / THE LOVE MAILROOM",guestbookHeading:"Letters for",guestbookAccent:"a lifetime.",guestbookIntro:"Leave a blessing, a memory, or a warm wish for our new chapter, in any language.",guestbookNameLabel:"Full name",guestbookMessageLabel:"A message for (nama pria) & (nama wanita)",guestbookSubmit:"Send your wishes",guestbookPrivacy:"Kind messages will appear in our guestbook. The original is always kept alongside its translation.",
  musicGateBody:'We have a song to play while you read our invitation.',musicGatePlay:'Open invitation with music',musicGateSkip:'Open without music',
- heroSubtitle:'Two hearts, one journey.\n12 & 19 December 2026',heroButton:'Open invitation',heroRecipientLabel:'FOR',guestFallback:'Our dear family and friends',
+ heroSubtitle:'Two hearts, one journey.\n[event date]',monogramInitials:'(your initials) & (partner initials)',heroButton:'Open invitation',heroRecipientLabel:'FOR',guestFallback:'Our dear family and friends',
  invitationHeading:'Join us for',invitationHeadingAccent:'our wedding day.',invitationIntro:'With grateful hearts, we invite you to celebrate our wedding with us.',
  memoBody:'It would mean so much to have you there to celebrate and pray with us.',
  coupleHeading:'Walking together,',coupleHeadingAccent:'into a new chapter.',coupleBody1:'We met, grew together, and found a home in each other.',coupleBody2:'Now we are ready to begin life as husband and wife. Thank you for being part of our story.',coupleTeamTitle:'From teammates to partners for life.',coupleTeamBody:'Our best adventure is just beginning.',

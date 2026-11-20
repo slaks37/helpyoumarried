@@ -11,7 +11,7 @@ const CONTENT_KEYS=['heroScript','heroSubtitle','invitationHeading','invitationH
 export const RECEPTION_TABLES={Galilea:5,Jordan:10,Pishon:10};
 export const TABLE_CAPACITY=10;
 const EVENT_IDS=DEFAULT_EVENTS.map(e=>e.id),RESERVED=new Set(['admin','api','assets','media','signin-with-chatgpt','signout-with-chatgpt','callback','favicon','index','robots','health']);
-const PUBLIC_ORIGINS=new Set(['https://stefen-jessica-forever.site','https://www.stefen-jessica-forever.site']);
+const PUBLIC_ORIGINS=new Set(['https://stefen-jessica-forever.site','https://www.stefen-jessica-forever.site','https://helpyoumarried.foreverinlove.site','https://helpyoumarried.vercel.app']);
 const stamp=()=>new Date().toISOString(),id=()=>crypto.randomUUID();
 const token=()=>{const a=crypto.getRandomValues(new Uint8Array(32));return btoa(String.fromCharCode(...a)).replace(/\+/g,'-').replace(/\//g,'_').replace(/=/g,'');};
 class AppError extends Error{constructor(status,message){super(message);this.status=status;}}
