@@ -1,0 +1,1 @@
+ALTER TABLE `journey_tasks` ADD `write_token` text DEFAULT '' NOT NULL;

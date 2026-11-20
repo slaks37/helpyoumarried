@@ -1,0 +1,2214 @@
+{
+  "capturedAt": "2026-10-30T08:35:10.518Z",
+  "provider": "Globalping",
+  "scope": "Public HTTP/DNS only; no real guest tokens or visits; network probes are not device/browser acceptance",
+  "note": "Probe metadata is provider-reported; eyeball-network is not proof of a mobile handset connection. Default HTTPS/IPv4 and DNS A options may be omitted by API. No guest paths, tokens, cookies or raw response bodies included.",
+  "measurements": [
+    {
+      "id": "22b5rW6bh7YRQ1xkG00021PX9",
+      "createdAt": "2026-10-30T08:35:03.253Z",
+      "target": "stefen-jessica-forever.site",
+      "type": "http",
+      "options": {
+        "request": {
+          "method": "GET"
+        }
+      },
+      "results": [
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 45498,
+            "network": "Smart Axiata",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "content-type": "text/html; charset=utf-8",
+            "server": "Vercel",
+            "x-vercel-cache": "HIT",
+            "x-vercel-id": "sin1::7s5cf-1793349304593-e7f3d428c238"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 1415,
+            "dns": 75,
+            "tcp": 364,
+            "tls": 674,
+            "firstByte": 298,
+            "download": 4
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 23673,
+            "network": "Cogetel Online, Cambodia, ISP",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "content-type": "text/html; charset=utf-8",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "hkg1::zfcbl-1793349303964-3a43302c2efa"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 878,
+            "dns": 461,
+            "tcp": 32,
+            "tls": 47,
+            "firstByte": 337,
+            "download": 1
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 17976,
+            "network": "CAMGSM Company",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "content-type": "text/html; charset=utf-8",
+            "server": "Vercel",
+            "x-vercel-cache": "HIT",
+            "x-vercel-id": "sin1::vfs8k-1793349304018-117ddd5ca372"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 545,
+            "dns": 347,
+            "tcp": 36,
+            "tls": 92,
+            "firstByte": 65,
+            "download": 5
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 154177,
+            "network": "LIGHT NODE",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "content-type": "text/html; charset=utf-8",
+            "server": "Vercel",
+            "x-vercel-cache": "HIT",
+            "x-vercel-id": "sin1::4bq5s-1793349303512-2f7dbca64c70"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 168,
+            "dns": 55,
+            "tcp": 31,
+            "tls": 43,
+            "firstByte": 38,
+            "download": 1
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "SG",
+            "city": "Singapore",
+            "asn": 59253,
+            "network": "LeaseWeb",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "content-type": "text/html; charset=utf-8",
+            "server": "Vercel",
+            "x-vercel-cache": "HIT",
+            "x-vercel-id": "sin1::65hw8-1793349303359-af32379d7bd0"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 47,
+            "dns": 11,
+            "tcp": 1,
+            "tls": 11,
+            "firstByte": 23,
+            "download": 1
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "ID",
+            "city": "Yogyakarta",
+            "asn": 55666,
+            "network": "Media Sarana Data",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "content-type": "text/html; charset=utf-8",
+            "server": "Vercel",
+            "x-vercel-cache": "HIT",
+            "x-vercel-id": "sin1::h7g22-1793349303496-e76fd0daf79f"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 154,
+            "dns": 37,
+            "tcp": 15,
+            "tls": 61,
+            "firstByte": 37,
+            "download": 4
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        }
+      ]
+    },
+    {
+      "id": "239YSmxiWEOC8PQ6B00021PX9",
+      "createdAt": "2026-10-30T08:35:03.245Z",
+      "target": "stefen-jessica-forever.site",
+      "type": "dns",
+      "options": {},
+      "results": [
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 45498,
+            "network": "Smart Axiata",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 384
+          },
+          "tls": null,
+          "dnsAnswerCount": 1,
+          "rcode": "NOERROR"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 23673,
+            "network": "Cogetel Online, Cambodia, ISP",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 395
+          },
+          "tls": null,
+          "dnsAnswerCount": 1,
+          "rcode": "NOERROR"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 17976,
+            "network": "CAMGSM Company",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 207
+          },
+          "tls": null,
+          "dnsAnswerCount": 1,
+          "rcode": "NOERROR"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 154177,
+            "network": "LIGHT NODE",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 40
+          },
+          "tls": null,
+          "dnsAnswerCount": 1,
+          "rcode": "NOERROR"
+        },
+        {
+          "probe": {
+            "country": "SG",
+            "city": "Singapore",
+            "asn": 59253,
+            "network": "LeaseWeb",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 12
+          },
+          "tls": null,
+          "dnsAnswerCount": 1,
+          "rcode": "NOERROR"
+        },
+        {
+          "probe": {
+            "country": "ID",
+            "city": "Pati",
+            "asn": 64300,
+            "network": "JARINGANKU SARANA NUSANTARA",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 51
+          },
+          "tls": null,
+          "dnsAnswerCount": 1,
+          "rcode": "NOERROR"
+        }
+      ]
+    },
+    {
+      "id": "29T8vvH1kxBuSYrkQ00021PX9",
+      "createdAt": "2026-10-30T08:35:03.243Z",
+      "target": "stefen-jessica-forever.site",
+      "type": "http",
+      "options": {
+        "request": {
+          "method": "GET",
+          "path": "/api/locale"
+        }
+      },
+      "results": [
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 45498,
+            "network": "Smart Axiata",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "private, no-store",
+            "content-type": "application/json",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "sin1::iad1::759jm-1793349304601-98ae6a1d2d57"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 1496,
+            "dns": 140,
+            "tcp": 372,
+            "tls": 685,
+            "firstByte": 294,
+            "download": 5
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 23673,
+            "network": "Cogetel Online, Cambodia, ISP",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "private, no-store",
+            "content-type": "application/json",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "hkg1::iad1::rcz8t-1793349303983-24dd3e4884c8"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 909,
+            "dns": 531,
+            "tcp": 39,
+            "tls": 54,
+            "firstByte": 283,
+            "download": 2
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 17976,
+            "network": "CAMGSM Company",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "private, no-store",
+            "content-type": "application/json",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "sin1::iad1::mtk4d-1793349304003-8d480b39999c"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 895,
+            "dns": 485,
+            "tcp": 43,
+            "tls": 66,
+            "firstByte": 297,
+            "download": 4
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 154177,
+            "network": "LIGHT NODE",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "private, no-store",
+            "content-type": "application/json",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "sin1::iad1::s8h5k-1793349303525-da91918f4292"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 890,
+            "dns": 53,
+            "tcp": 31,
+            "tls": 86,
+            "firstByte": 718,
+            "download": 2
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "SG",
+            "city": "Singapore",
+            "asn": 59253,
+            "network": "LeaseWeb",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "private, no-store",
+            "content-type": "application/json",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "sin1::iad1::df2mz-1793349303373-d37f6adc07b9"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 789,
+            "dns": 28,
+            "tcp": 3,
+            "tls": 14,
+            "firstByte": 743,
+            "download": 1
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "ID",
+            "city": "Jakarta",
+            "asn": 7713,
+            "network": "Telekomunikasi Indonesia",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "private, no-store",
+            "content-type": "application/json",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "sin1::iad1::q2g79-1793349303455-1cb59b788786"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 813,
+            "dns": 38,
+            "tcp": 8,
+            "tls": 51,
+            "firstByte": 715,
+            "download": 1
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        }
+      ]
+    },
+    {
+      "id": "29ZgYq2BHDNAFv3R200021PX9",
+      "createdAt": "2026-10-30T08:35:03.244Z",
+      "target": "stefen-jessica-forever.site",
+      "type": "dns",
+      "options": {
+        "query": {
+          "type": "AAAA"
+        }
+      },
+      "results": [
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 45498,
+            "network": "Smart Axiata",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 396
+          },
+          "tls": null,
+          "dnsAnswerCount": 0,
+          "rcode": "NOERROR"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 23673,
+            "network": "Cogetel Online, Cambodia, ISP",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 407
+          },
+          "tls": null,
+          "dnsAnswerCount": 0,
+          "rcode": "NOERROR"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 17976,
+            "network": "CAMGSM Company",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 227
+          },
+          "tls": null,
+          "dnsAnswerCount": 0,
+          "rcode": "NOERROR"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 154177,
+            "network": "LIGHT NODE",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 144
+          },
+          "tls": null,
+          "dnsAnswerCount": 0,
+          "rcode": "NOERROR"
+        },
+        {
+          "probe": {
+            "country": "SG",
+            "city": "Singapore",
+            "asn": 59253,
+            "network": "LeaseWeb",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 13
+          },
+          "tls": null,
+          "dnsAnswerCount": 0,
+          "rcode": "NOERROR"
+        },
+        {
+          "probe": {
+            "country": "ID",
+            "city": "Jakarta",
+            "asn": 7713,
+            "network": "Telekomunikasi Indonesia",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 32
+          },
+          "tls": null,
+          "dnsAnswerCount": 0,
+          "rcode": "NOERROR"
+        }
+      ]
+    },
+    {
+      "id": "2BhpAZu3XZyEBgsL400021PX9",
+      "createdAt": "2026-10-30T08:35:03.255Z",
+      "target": "stefen-jessica-forever.site",
+      "type": "http",
+      "options": {
+        "ipVersion": 6,
+        "request": {
+          "method": "GET"
+        }
+      },
+      "results": [
+        {
+          "probe": {
+            "country": "SG",
+            "city": "Singapore",
+            "asn": 16276,
+            "network": "OVH",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "failed",
+          "statusCode": null,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 13,
+            "dns": null,
+            "tcp": null,
+            "tls": null,
+            "firstByte": null,
+            "download": null
+          },
+          "tls": null,
+          "rcode": null,
+          "error": "queryAaaa ENODATA stefen-jessica-forever.site",
+          "failureSource": "target"
+        },
+        {
+          "probe": {
+            "country": "ID",
+            "city": "Denpasar",
+            "asn": 45287,
+            "network": "Varnion Technology Semesta",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "failed",
+          "statusCode": null,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 77,
+            "dns": null,
+            "tcp": null,
+            "tls": null,
+            "firstByte": null,
+            "download": null
+          },
+          "tls": null,
+          "rcode": null,
+          "error": "queryAaaa ENODATA stefen-jessica-forever.site",
+          "failureSource": "target"
+        }
+      ]
+    },
+    {
+      "id": "2DZxgFW27A3l4vyDl00021PX9",
+      "createdAt": "2026-10-30T08:35:03.250Z",
+      "target": "stefen-jessica-forever-office.stefenlaks.chatgpt.site",
+      "type": "dns",
+      "options": {},
+      "results": [
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 45498,
+            "network": "Smart Axiata",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 372
+          },
+          "tls": null,
+          "dnsAnswerCount": 2,
+          "rcode": "NOERROR"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 23673,
+            "network": "Cogetel Online, Cambodia, ISP",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 399
+          },
+          "tls": null,
+          "dnsAnswerCount": 2,
+          "rcode": "NOERROR"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 17976,
+            "network": "CAMGSM Company",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 195
+          },
+          "tls": null,
+          "dnsAnswerCount": 2,
+          "rcode": "NOERROR"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 154177,
+            "network": "LIGHT NODE",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 32
+          },
+          "tls": null,
+          "dnsAnswerCount": 2,
+          "rcode": "NOERROR"
+        },
+        {
+          "probe": {
+            "country": "SG",
+            "city": "Singapore",
+            "asn": 59253,
+            "network": "LeaseWeb",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 8
+          },
+          "tls": null,
+          "dnsAnswerCount": 2,
+          "rcode": "NOERROR"
+        },
+        {
+          "probe": {
+            "country": "ID",
+            "city": "Pati",
+            "asn": 64300,
+            "network": "JARINGANKU SARANA NUSANTARA",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 0,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 42
+          },
+          "tls": null,
+          "dnsAnswerCount": 2,
+          "rcode": "NOERROR"
+        }
+      ]
+    },
+    {
+      "id": "2UGGujlElMlRxVJE300021PX9",
+      "createdAt": "2026-10-30T08:35:03.248Z",
+      "target": "stefen-jessica-forever-office.stefenlaks.chatgpt.site",
+      "type": "http",
+      "options": {
+        "request": {
+          "method": "GET",
+          "path": "/api/locale"
+        }
+      },
+      "results": [
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 45498,
+            "network": "Smart Axiata",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "content-type": "application/json;charset=utf-8",
+            "cache-control": "private, no-store",
+            "server": "cloudflare",
+            "cf-ray": "a529159f8f88f878-PNH"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 2661,
+            "dns": 70,
+            "tcp": 14,
+            "tls": 407,
+            "firstByte": 2170,
+            "download": 0
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-23T02:57:04.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 23673,
+            "network": "Cogetel Online, Cambodia, ISP",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "content-type": "application/json;charset=utf-8",
+            "cache-control": "private, no-store",
+            "server": "cloudflare",
+            "cf-ray": "a529159dfd5e9d12-SIN"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 2560,
+            "dns": 492,
+            "tcp": 35,
+            "tls": 72,
+            "firstByte": 1960,
+            "download": 1
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-23T02:57:04.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 17976,
+            "network": "CAMGSM Company",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "content-type": "application/json;charset=utf-8",
+            "cache-control": "private, no-store",
+            "server": "cloudflare",
+            "cf-ray": "a529159ecb1d4491-SIN"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 2424,
+            "dns": 407,
+            "tcp": 88,
+            "tls": 129,
+            "firstByte": 1799,
+            "download": 1
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-23T02:57:04.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 154177,
+            "network": "LIGHT NODE",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "content-type": "application/json;charset=utf-8",
+            "cache-control": "private, no-store",
+            "server": "cloudflare",
+            "cf-ray": "a529159adf43a8d9-SIN"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 2430,
+            "dns": 31,
+            "tcp": 34,
+            "tls": 57,
+            "firstByte": 2307,
+            "download": 1
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-23T02:57:04.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "SG",
+            "city": "Singapore",
+            "asn": 59253,
+            "network": "LeaseWeb",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "content-type": "application/json;charset=utf-8",
+            "cache-control": "private, no-store",
+            "server": "cloudflare",
+            "cf-ray": "a5291599f9dcfdab-SIN"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 2102,
+            "dns": 15,
+            "tcp": 1,
+            "tls": 8,
+            "firstByte": 2078,
+            "download": 0
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-23T02:57:04.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "ID",
+            "city": "Garut",
+            "asn": 149971,
+            "network": "Jujur Amanah Barokah",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "content-type": "application/json;charset=utf-8",
+            "cache-control": "private, no-store",
+            "server": "cloudflare",
+            "cf-ray": "a529159a1ab25682-CGK"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 2243,
+            "dns": 6,
+            "tcp": 1,
+            "tls": 13,
+            "firstByte": 2222,
+            "download": 1
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-23T02:57:04.000Z"
+          },
+          "rcode": "OK"
+        }
+      ]
+    },
+    {
+      "id": "2xpDA21qtEuCbfr5100021PX9",
+      "createdAt": "2026-10-30T08:35:03.244Z",
+      "target": "stefen-jessica-forever.site",
+      "type": "http",
+      "options": {
+        "protocol": "HTTP",
+        "request": {
+          "method": "GET"
+        }
+      },
+      "results": [
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 45498,
+            "network": "Smart Axiata",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 308,
+          "blocked": false,
+          "headers": {
+            "content-type": "text/plain",
+            "server": "Vercel"
+          },
+          "redirect": {
+            "origin": "https://stefen-jessica-forever.site",
+            "path": "/",
+            "queryPresent": false
+          },
+          "timings": {
+            "total": 1131,
+            "dns": 92,
+            "tcp": 354,
+            "tls": null,
+            "firstByte": 684,
+            "download": 1
+          },
+          "tls": null,
+          "rcode": "Permanent Redirect"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 23673,
+            "network": "Cogetel Online, Cambodia, ISP",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 308,
+          "blocked": false,
+          "headers": {
+            "content-type": "text/plain",
+            "server": "Vercel"
+          },
+          "redirect": {
+            "origin": "https://stefen-jessica-forever.site",
+            "path": "/",
+            "queryPresent": false
+          },
+          "timings": {
+            "total": 553,
+            "dns": 473,
+            "tcp": 38,
+            "tls": null,
+            "firstByte": 42,
+            "download": 0
+          },
+          "tls": null,
+          "rcode": "Permanent Redirect"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 17976,
+            "network": "CAMGSM Company",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 308,
+          "blocked": false,
+          "headers": {
+            "content-type": "text/plain",
+            "server": "Vercel"
+          },
+          "redirect": {
+            "origin": "https://stefen-jessica-forever.site",
+            "path": "/",
+            "queryPresent": false
+          },
+          "timings": {
+            "total": 490,
+            "dns": 363,
+            "tcp": 31,
+            "tls": null,
+            "firstByte": 62,
+            "download": 34
+          },
+          "tls": null,
+          "rcode": "Permanent Redirect"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 154177,
+            "network": "LIGHT NODE",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 308,
+          "blocked": false,
+          "headers": {
+            "content-type": "text/plain",
+            "server": "Vercel"
+          },
+          "redirect": {
+            "origin": "https://stefen-jessica-forever.site",
+            "path": "/",
+            "queryPresent": false
+          },
+          "timings": {
+            "total": 130,
+            "dns": 64,
+            "tcp": 31,
+            "tls": null,
+            "firstByte": 35,
+            "download": 0
+          },
+          "tls": null,
+          "rcode": "Permanent Redirect"
+        },
+        {
+          "probe": {
+            "country": "SG",
+            "city": "Singapore",
+            "asn": 59253,
+            "network": "LeaseWeb",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 308,
+          "blocked": false,
+          "headers": {
+            "content-type": "text/plain",
+            "server": "Vercel"
+          },
+          "redirect": {
+            "origin": "https://stefen-jessica-forever.site",
+            "path": "/",
+            "queryPresent": false
+          },
+          "timings": {
+            "total": 23,
+            "dns": 13,
+            "tcp": 1,
+            "tls": null,
+            "firstByte": 9,
+            "download": 0
+          },
+          "tls": null,
+          "rcode": "Permanent Redirect"
+        },
+        {
+          "probe": {
+            "country": "ID",
+            "city": "Denpasar",
+            "asn": 17451,
+            "network": "BIZNET NETWORKS",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 308,
+          "blocked": false,
+          "headers": {
+            "content-type": "text/plain",
+            "server": "Vercel"
+          },
+          "redirect": {
+            "origin": "https://stefen-jessica-forever.site",
+            "path": "/",
+            "queryPresent": false
+          },
+          "timings": {
+            "total": 172,
+            "dns": 82,
+            "tcp": 27,
+            "tls": null,
+            "firstByte": 62,
+            "download": 1
+          },
+          "tls": null,
+          "rcode": "Permanent Redirect"
+        }
+      ]
+    },
+    {
+      "id": "2yJofMKjD3xWJYcKp00021PX9",
+      "createdAt": "2026-10-30T08:35:03.255Z",
+      "target": "stefen-jessica-forever.site",
+      "type": "http",
+      "options": {
+        "request": {
+          "method": "GET",
+          "path": "/api/content"
+        }
+      },
+      "results": [
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 45498,
+            "network": "Smart Axiata",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "private, no-store",
+            "cf-ray": "a52915a20d8c9ba8-SIN",
+            "content-type": "application/json;charset=utf-8",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "sin1::mzdqr-1793349304615-33e2ca7e01eb"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 4231,
+            "dns": 69,
+            "tcp": 363,
+            "tls": 688,
+            "firstByte": 2998,
+            "download": 113
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 23673,
+            "network": "Cogetel Online, Cambodia, ISP",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 403,
+          "blocked": true,
+          "headers": {
+            "cache-control": "private, no-store",
+            "cf-ray": "a529159ef897846f-HKG",
+            "content-type": "text/html; charset=UTF-8",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "hkg1::rtblc-1793349304070-6756234a86ba"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 715,
+            "dns": 355,
+            "tcp": 47,
+            "tls": 133,
+            "firstByte": 178,
+            "download": 2
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "Forbidden"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 17976,
+            "network": "CAMGSM Company",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "private, no-store",
+            "cf-ray": "a529159e681f5f39-SIN",
+            "content-type": "application/json;charset=utf-8",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "sin1::gdrm6-1793349304009-98d645ced349"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 3623,
+            "dns": 342,
+            "tcp": 26,
+            "tls": 87,
+            "firstByte": 3159,
+            "download": 9
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 154177,
+            "network": "LIGHT NODE",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "private, no-store",
+            "cf-ray": "a529159baedc32e2-SIN",
+            "content-type": "application/json;charset=utf-8",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "sin1::25qqk-1793349303613-e7b7af82084e"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 4681,
+            "dns": 145,
+            "tcp": 39,
+            "tls": 44,
+            "firstByte": 4452,
+            "download": 1
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "SG",
+            "city": "Singapore",
+            "asn": 59253,
+            "network": "LeaseWeb",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "private, no-store",
+            "cf-ray": "a529159bbe46f8da-SIN",
+            "content-type": "application/json;charset=utf-8",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "sin1::k8ftx-1793349303452-0e5329e9c902"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 3647,
+            "dns": 33,
+            "tcp": 1,
+            "tls": 9,
+            "firstByte": 3603,
+            "download": 1
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "ID",
+            "city": "Jakarta",
+            "asn": 7713,
+            "network": "Telekomunikasi Indonesia",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "private, no-store",
+            "cf-ray": "a529159afed63102-SIN",
+            "content-type": "application/json;charset=utf-8",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "sin1::jvgxn-1793349303468-5f8d7741409c"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 3759,
+            "dns": 40,
+            "tcp": 9,
+            "tls": 49,
+            "firstByte": 3660,
+            "download": 1
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        }
+      ]
+    },
+    {
+      "id": "2zCArkZQcOjZ3YwE800021PXA",
+      "createdAt": "2026-10-30T08:36:06.456Z",
+      "target": "stefen-jessica-forever-office.stefenlaks.chatgpt.site",
+      "type": "http",
+      "options": {
+        "request": {
+          "method": "GET",
+          "path": "/api/content"
+        }
+      },
+      "results": [
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 23673,
+            "network": "Cogetel Online, Cambodia, ISP",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "content-type": "application/json;charset=utf-8",
+            "cache-control": "private, no-store",
+            "server": "cloudflare",
+            "cf-ray": "a5291725d9c644bf-SIN"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 3550,
+            "dns": 3,
+            "tcp": 35,
+            "tls": 86,
+            "firstByte": 3423,
+            "download": 3
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-23T02:57:04.000Z"
+          },
+          "rcode": "OK"
+        }
+      ]
+    },
+    {
+      "id": "2dmNejiNqPdqIepif00021PXA",
+      "createdAt": "2026-10-30T08:36:11.632Z",
+      "target": "stefen-jessica-forever.site",
+      "type": "http",
+      "options": {
+        "request": {
+          "method": "GET",
+          "path": "/api/content"
+        }
+      },
+      "results": [
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 23673,
+            "network": "Cogetel Online, Cambodia, ISP",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 403,
+          "blocked": true,
+          "headers": {
+            "cache-control": "private, no-store",
+            "cf-ray": "a52917473c5fa0b0-HKG",
+            "content-type": "text/html; charset=UTF-8",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "hkg1::mcllq-1793349371860-fe9ece565f0d"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 338,
+            "dns": 2,
+            "tcp": 39,
+            "tls": 64,
+            "firstByte": 230,
+            "download": 3
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "Forbidden"
+        }
+      ]
+    },
+    {
+      "id": "2Ln5mCA3A1Hs6zaVf00021PXG",
+      "createdAt": "2026-10-30T08:42:15.115Z",
+      "target": "stefen-jessica-forever.site",
+      "type": "http",
+      "options": {
+        "protocol": "HTTPS",
+        "request": {
+          "method": "GET",
+          "path": "/media/8f7b50ed-f23c-466c-88a4-47cff01856ca.jpg"
+        }
+      },
+      "results": [
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 45498,
+            "network": "Smart Axiata",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "public,max-age=31536000,immutable",
+            "cf-ray": "a5292026cd3bc61e-SIN",
+            "content-type": "image/jpeg",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "sin1::9rh2h-1793349735454-c081db0acb81"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 3146,
+            "dns": 58,
+            "tcp": 45,
+            "tls": 82,
+            "firstByte": 2952,
+            "download": 9
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 23673,
+            "network": "Cogetel Online, Cambodia, ISP",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 403,
+          "blocked": true,
+          "headers": {
+            "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+            "cf-ray": "a52920290b2e0962-HKG",
+            "content-type": "text/html; charset=UTF-8",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "hkg1::fg968-1793349735769-bdd116362c71"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 676,
+            "dns": 444,
+            "tcp": 32,
+            "tls": 57,
+            "firstByte": 140,
+            "download": 3
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "Forbidden"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 17976,
+            "network": "CAMGSM Company",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "public,max-age=31536000,immutable",
+            "cf-ray": "a5292028fd5eb4cd-SIN",
+            "content-type": "image/jpeg",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "sin1::g76mq-1793349735783-11a09eaeeb50"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 2303,
+            "dns": 413,
+            "tcp": 15,
+            "tls": 82,
+            "firstByte": 1788,
+            "download": 5
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 154177,
+            "network": "LIGHT NODE",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "public,max-age=31536000,immutable",
+            "cf-ray": "a5292026185edf08-SIN",
+            "content-type": "image/jpeg",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "sin1::qpp56-1793349735353-a87fe813631e"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 2310,
+            "dns": 56,
+            "tcp": 31,
+            "tls": 38,
+            "firstByte": 2184,
+            "download": 1
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "SG",
+            "city": "Singapore",
+            "asn": 59253,
+            "network": "LeaseWeb",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "public,max-age=31536000,immutable",
+            "cf-ray": "a5292025ee69d47d-SIN",
+            "content-type": "image/jpeg",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "sin1::jvt5c-1793349735231-f469bfaf1f12"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 2320,
+            "dns": 17,
+            "tcp": 2,
+            "tls": 12,
+            "firstByte": 2289,
+            "download": 0
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "ID",
+            "city": "Jakarta",
+            "asn": 7713,
+            "network": "Telekomunikasi Indonesia",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "public,max-age=31536000,immutable",
+            "cf-ray": "a529202638799d4e-SIN",
+            "content-type": "image/jpeg",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "sin1::chvqg-1793349735366-cd26b9861149"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 2365,
+            "dns": 61,
+            "tcp": 6,
+            "tls": 60,
+            "firstByte": 2232,
+            "download": 6
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        }
+      ]
+    },
+    {
+      "id": "213KvMLVdfHEVt4rc00021PXG",
+      "createdAt": "2026-10-30T08:42:20.061Z",
+      "target": "stefen-jessica-forever.site",
+      "type": "http",
+      "options": {
+        "protocol": "HTTPS",
+        "request": {
+          "method": "GET",
+          "path": "/assets/photo-01-new.webp"
+        }
+      },
+      "results": [
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 45498,
+            "network": "Smart Axiata",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "content-type": "image/webp",
+            "server": "Vercel",
+            "x-vercel-cache": "HIT",
+            "x-vercel-id": "sin1::ftkxr-1793349740454-4fcb9e3096cc"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 386,
+            "dns": 54,
+            "tcp": 43,
+            "tls": 123,
+            "firstByte": 159,
+            "download": 7
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 23673,
+            "network": "Cogetel Online, Cambodia, ISP",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "content-type": "image/webp",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "hkg1::8hcb7-1793349740354-e7d87c84c21d"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 475,
+            "dns": 2,
+            "tcp": 39,
+            "tls": 105,
+            "firstByte": 325,
+            "download": 4
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 17976,
+            "network": "CAMGSM Company",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "content-type": "image/webp",
+            "server": "Vercel",
+            "x-vercel-cache": "HIT",
+            "x-vercel-id": "sin1::bdwgv-1793349740348-1a20d7e31325"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 361,
+            "dns": 4,
+            "tcp": 17,
+            "tls": 79,
+            "firstByte": 257,
+            "download": 4
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "KH",
+            "city": "Phnom Penh",
+            "asn": 154177,
+            "network": "LIGHT NODE",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "content-type": "image/webp",
+            "server": "Vercel",
+            "x-vercel-cache": "HIT",
+            "x-vercel-id": "sin1::sbh79-1793349740404-8c83a1e2f0bd"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 405,
+            "dns": 119,
+            "tcp": 39,
+            "tls": 45,
+            "firstByte": 202,
+            "download": 0
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "SG",
+            "city": "Singapore",
+            "asn": 59253,
+            "network": "LeaseWeb",
+            "tags": [
+              "datacenter-network"
+            ]
+          },
+          "status": "finished",
+          "statusCode": 200,
+          "blocked": false,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "content-type": "image/webp",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS",
+            "x-vercel-id": "sin1::wlk75-1793349740198-63422788b62b"
+          },
+          "redirect": null,
+          "timings": {
+            "total": 409,
+            "dns": 18,
+            "tcp": 1,
+            "tls": 8,
+            "firstByte": 381,
+            "download": 1
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3",
+            "expiresAt": "2026-12-26T01:13:24.000Z"
+          },
+          "rcode": "OK"
+        },
+        {
+          "probe": {
+            "country": "ID",
+            "city": "Yogyakarta",
+            "asn": 55666,
+            "network": "Media Sarana Data",
+            "tags": [
+              "eyeball-network"
+            ]
+          },
+          "status": "failed",
+          "statusCode": null,
+          "blocked": false,
+          "headers": {},
+          "redirect": null,
+          "timings": {
+            "total": 6001,
+            "dns": null,
+            "tcp": null,
+            "tls": null,
+            "firstByte": null,
+            "download": null
+          },
+          "tls": null,
+          "rcode": null,
+          "error": "The measurement timed out during DNS resolution.",
+          "failureSource": "resolver"
+        }
+      ]
+    }
+  ],
+  "vercelPublicApiAggregate": {
+    "capturedAt": "2026-10-30T08:39:36.295Z",
+    "scope": "Public /api/content only",
+    "groups": {
+      "{\"status\":403,\"region\":\"hkg1\",\"country\":\"KH\",\"waf\":\"allow\"}": 2,
+      "{\"status\":200,\"region\":\"sin1\",\"country\":\"KH\",\"waf\":\"allow\"}": 3,
+      "{\"status\":200,\"region\":\"sin1\",\"country\":\"ID\",\"waf\":\"allow\"}": 1,
+      "{\"status\":200,\"region\":\"sin1\",\"country\":\"SG\",\"waf\":\"allow\"}": 1
+    }
+  },
+  "invitationIntegrity": {
+    "comparedColumns": 19,
+    "changed": [
+      "seats",
+      "updated_at"
+    ],
+    "identityPreserved": true
+  }
+}

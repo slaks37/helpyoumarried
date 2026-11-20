@@ -1,0 +1,7 @@
+node_modules/
+.local/
+.env
+.env.local
+.sites-runtime/
+.vercel/
+*.tar.gz

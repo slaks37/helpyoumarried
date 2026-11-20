@@ -1,0 +1,1 @@
+ALTER TABLE `gifts` ADD `proof_key` text;

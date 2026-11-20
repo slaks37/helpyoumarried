@@ -1,0 +1,856 @@
+{
+  "recordedAt": "2026-10-30T15:10:46.305Z",
+  "hostedApi": {
+    "capturedAt": "2026-10-30T09:36:40.169Z",
+    "scope": "wedding_preview synthetic data only",
+    "results": [
+      {
+        "name": "Preview data contains only isolated synthetic parties",
+        "status": "PASS"
+      },
+      {
+        "name": "Anonymous admin is rejected",
+        "status": "PASS"
+      },
+      {
+        "name": "Create personalized invitations with assigned seats and events",
+        "status": "PASS"
+      },
+      {
+        "name": "Edit guest configuration",
+        "status": "PASS"
+      },
+      {
+        "name": "Synthetic token exchange sets secure HttpOnly guest cookie",
+        "status": "PASS"
+      },
+      {
+        "name": "Correct personal name and only assigned event",
+        "status": "PASS"
+      },
+      {
+        "name": "RSVP retry persists one response with actual party count",
+        "status": "PASS"
+      },
+      {
+        "name": "RSVP change persists without duplicate",
+        "status": "PASS"
+      },
+      {
+        "name": "CMS text save persists through public read",
+        "status": "PASS"
+      },
+      {
+        "name": "Family tea agenda links multiple invitations",
+        "status": "PASS"
+      },
+      {
+        "name": "Check-in seating and souvenir persist",
+        "status": "PASS"
+      },
+      {
+        "name": "Private gift proof exact bytes only available to admin",
+        "status": "PASS"
+      },
+      {
+        "name": "Deactivate and delete a synthetic party",
+        "status": "PASS"
+      }
+    ]
+  },
+  "hostedBrowser": {
+    "capturedAt": "2026-10-30T14:54:01.422Z",
+    "scope": "Real Chrome against protected Preview, synthetic schema/buckets; mobile is emulation",
+    "results": [
+      {
+        "name": "Hosted desktop: greeting/events/RSVP persistence/happy-sad/calendar/lightbox/responsiveness",
+        "status": "PASS"
+      },
+      {
+        "name": "Hosted multilingual guestbook: original plus real Indonesian/English translations",
+        "status": "PASS"
+      },
+      {
+        "name": "Held spam remains private to its sender",
+        "status": "PASS"
+      },
+      {
+        "name": "Hosted mobile-emulation: greeting/events/RSVP persistence/happy-sad/calendar/lightbox/responsiveness",
+        "status": "PASS"
+      },
+      {
+        "name": "Hosted CMS signed image upload above 4.5 MB and persistent photo publication",
+        "status": "PASS"
+      },
+      {
+        "name": "Hosted admin login, CMS, Wedding Desk and logout",
+        "status": "PASS"
+      },
+      {
+        "name": "Hosted public invitation only reception II and language toggle",
+        "status": "PASS"
+      },
+      {
+        "name": "No legacy runtime browser request and no console failures",
+        "status": "PASS"
+      }
+    ]
+  },
+  "regional": {
+    "scope": "Publicly approved isolated QA deployment; synthetic invitation/token only; no handset claim",
+    "target": "stefen-jessica-wedding-h764bhec6-slaks37s-projects.vercel.app",
+    "failures": [],
+    "measurements": [
+      {
+        "id": "2dvU1xyrE5P2M5on000021Pcw",
+        "label": "landing",
+        "results": [
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 45498,
+              "network": "Smart Axiata",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 23673,
+              "network": "Cogetel Online, Cambodia, ISP",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 17976,
+              "network": "CAMGSM Company",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 154177,
+              "network": "LIGHT NODE",
+              "tags": [
+                "datacenter-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "SG",
+              "city": "Singapore",
+              "asn": 59253,
+              "network": "LeaseWeb",
+              "tags": [
+                "datacenter-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "ID",
+              "city": "Jakarta",
+              "asn": 7713,
+              "network": "Telekomunikasi Indonesia",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          }
+        ]
+      },
+      {
+        "id": "2BBIcWU0VE3OfpoFC00021Pcw",
+        "label": "locale",
+        "results": [
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 45498,
+              "network": "Smart Axiata",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "language": "en",
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 23673,
+              "network": "Cogetel Online, Cambodia, ISP",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "language": "en",
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 17976,
+              "network": "CAMGSM Company",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "language": "en",
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 154177,
+              "network": "LIGHT NODE",
+              "tags": [
+                "datacenter-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "language": "en",
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "SG",
+              "city": "Singapore",
+              "asn": 59253,
+              "network": "LeaseWeb",
+              "tags": [
+                "datacenter-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "language": "en",
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "ID",
+              "city": "Jakarta",
+              "asn": 7713,
+              "network": "Telekomunikasi Indonesia",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "language": "id",
+            "tlsAuthorized": true
+          }
+        ]
+      },
+      {
+        "id": "2Qw1Xs0D0opRaYvxL00021Pcw",
+        "label": "content",
+        "results": [
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 45498,
+              "network": "Smart Axiata",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 23673,
+              "network": "Cogetel Online, Cambodia, ISP",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 17976,
+              "network": "CAMGSM Company",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 154177,
+              "network": "LIGHT NODE",
+              "tags": [
+                "datacenter-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "SG",
+              "city": "Singapore",
+              "asn": 59253,
+              "network": "LeaseWeb",
+              "tags": [
+                "datacenter-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "ID",
+              "city": "Jakarta",
+              "asn": 7713,
+              "network": "Telekomunikasi Indonesia",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          }
+        ]
+      },
+      {
+        "id": "2YRRZ6WFn3xmCD04k00021Pcw",
+        "label": "token-exchange",
+        "results": [
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 45498,
+              "network": "Smart Axiata",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 303,
+            "passed": true,
+            "guestCookieIssued": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 23673,
+              "network": "Cogetel Online, Cambodia, ISP",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 303,
+            "passed": true,
+            "guestCookieIssued": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 17976,
+              "network": "CAMGSM Company",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 303,
+            "passed": true,
+            "guestCookieIssued": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 154177,
+              "network": "LIGHT NODE",
+              "tags": [
+                "datacenter-network"
+              ]
+            },
+            "status": 303,
+            "passed": true,
+            "guestCookieIssued": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "SG",
+              "city": "Singapore",
+              "asn": 59253,
+              "network": "LeaseWeb",
+              "tags": [
+                "datacenter-network"
+              ]
+            },
+            "status": 303,
+            "passed": true,
+            "guestCookieIssued": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "ID",
+              "city": "Jakarta",
+              "asn": 7713,
+              "network": "Telekomunikasi Indonesia",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 303,
+            "passed": true,
+            "guestCookieIssued": true,
+            "tlsAuthorized": true
+          }
+        ]
+      },
+      {
+        "id": "2Z54KnqZ3x12DHFDf00021Pcw",
+        "label": "personal-html",
+        "results": [
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 45498,
+              "network": "Smart Axiata",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 23673,
+              "network": "Cogetel Online, Cambodia, ISP",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 17976,
+              "network": "CAMGSM Company",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 154177,
+              "network": "LIGHT NODE",
+              "tags": [
+                "datacenter-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "SG",
+              "city": "Singapore",
+              "asn": 59253,
+              "network": "LeaseWeb",
+              "tags": [
+                "datacenter-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "ID",
+              "city": "Jakarta",
+              "asn": 7713,
+              "network": "Telekomunikasi Indonesia",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          }
+        ]
+      },
+      {
+        "id": "2MAsH2LIVpWBtE8XE00021Pcw",
+        "label": "personal-api",
+        "results": [
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 45498,
+              "network": "Smart Axiata",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "syntheticGuestAuthorized": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 23673,
+              "network": "Cogetel Online, Cambodia, ISP",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "syntheticGuestAuthorized": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 17976,
+              "network": "CAMGSM Company",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "syntheticGuestAuthorized": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 154177,
+              "network": "LIGHT NODE",
+              "tags": [
+                "datacenter-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "syntheticGuestAuthorized": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "SG",
+              "city": "Singapore",
+              "asn": 59253,
+              "network": "LeaseWeb",
+              "tags": [
+                "datacenter-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "syntheticGuestAuthorized": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "ID",
+              "city": "Jakarta",
+              "asn": 7713,
+              "network": "Telekomunikasi Indonesia",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "syntheticGuestAuthorized": true,
+            "tlsAuthorized": true
+          }
+        ]
+      },
+      {
+        "id": "2qy59MsPDnTUoW7vG00021Pcw",
+        "label": "gallery-media",
+        "results": [
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 45498,
+              "network": "Smart Axiata",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 23673,
+              "network": "Cogetel Online, Cambodia, ISP",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 17976,
+              "network": "CAMGSM Company",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 154177,
+              "network": "LIGHT NODE",
+              "tags": [
+                "datacenter-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "SG",
+              "city": "Singapore",
+              "asn": 59253,
+              "network": "LeaseWeb",
+              "tags": [
+                "datacenter-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "ID",
+              "city": "Jakarta",
+              "asn": 7713,
+              "network": "Telekomunikasi Indonesia",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 200,
+            "passed": true,
+            "tlsAuthorized": true
+          }
+        ]
+      },
+      {
+        "id": "2tBqtF9QhhJ19pHd700021Pcw",
+        "label": "canonical-slash",
+        "results": [
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 45498,
+              "network": "Smart Axiata",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 308,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 23673,
+              "network": "Cogetel Online, Cambodia, ISP",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 308,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 17976,
+              "network": "CAMGSM Company",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 308,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "KH",
+              "city": "Phnom Penh",
+              "asn": 154177,
+              "network": "LIGHT NODE",
+              "tags": [
+                "datacenter-network"
+              ]
+            },
+            "status": 308,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "SG",
+              "city": "Singapore",
+              "asn": 59253,
+              "network": "LeaseWeb",
+              "tags": [
+                "datacenter-network"
+              ]
+            },
+            "status": 308,
+            "passed": true,
+            "tlsAuthorized": true
+          },
+          {
+            "probe": {
+              "country": "ID",
+              "city": "Jakarta",
+              "asn": 7713,
+              "network": "Telekomunikasi Indonesia",
+              "tags": [
+                "eyeball-network"
+              ]
+            },
+            "status": 308,
+            "passed": true,
+            "tlsAuthorized": true
+          }
+        ]
+      }
+    ]
+  },
+  "media": {
+    "source": {
+      "type": "original-sites-r2-binding",
+      "project": "appgprj_6ab47d5e1fb4819180cbf349e343f66f",
+      "binding": "BUCKET"
+    },
+    "sourceCount": 49,
+    "requiredReferences": 21,
+    "verified": true,
+    "sourceRecheckedAt": "2026-10-30T14:42:39.423Z",
+    "bytes": 204825858
+  }
+}
