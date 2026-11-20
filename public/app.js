@@ -145,7 +145,7 @@ const htmlEscape=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;'
 let currentEvents=[],countdownInterval;
 const dateFormat=()=>new Intl.DateTimeFormat(locale(),{dateStyle:'full',timeZone:'Asia/Jakarta'});
 const timeFormat=()=>new Intl.DateTimeFormat(locale(),{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Jakarta'});
-const eventDateLabel=e=>e.start?`${dateFormat().format(new Date(e.start))} · ${timeFormat().format(new Date(e.start))}${e.end?'–'+timeFormat().format(new Date(e.end)):''} ${ui('WIB','Jakarta time')}`:dateFormat().format(new Date(e.date+'T12:00:00+07:00'))+ui(' · Waktu menyusul',' · Time to be announced');
+const eventDateLabel=e=>e.time?e.time:e.start?`${dateFormat().format(new Date(e.start))} · ${timeFormat().format(new Date(e.start))}${e.end?'–'+timeFormat().format(new Date(e.end)):''} ${ui('WIB','Jakarta time')}`:dateFormat().format(new Date(e.date+'T12:00:00+07:00'))+ui(' · Waktu menyusul',' · Time to be announced');
 window.weddingEventDateLabel=eventDateLabel;
 let reminderEventIds=[];
 function updateReminder(){
@@ -160,15 +160,15 @@ let invitationSeats=null;
 window.setRsvpSeats=function(seats){invitationSeats=Number.isInteger(seats)?seats:null;const template=copy('rsvpHeading');document.querySelector('#rsvp-seat-heading').textContent=invitationSeats?template.includes('{seats}')?template.replaceAll('{seats}',String(invitationSeats)):`${invitationSeats} ${ui('kursi','seats')}`:ui('Kami menyiapkan kursi','We saved a place');};
 window.renderWeddingEvents=function(events){
  currentEvents=events;
- document.querySelector('#event-cards').innerHTML=events.map((e,i)=>`<article class="event-card" data-event="${htmlEscape(e.id)}"><div class="event-label"><span>${htmlEscape(copy(e.id==='ceremony'?'eventPromiseLabel':'eventCelebrationLabel'))}</span><span>0${i+1}</span></div><h3>${htmlEscape(window.weddingEventTitle(e))}</h3><p class="event-time">${eventDateLabel(e).split(" · ").map(part=>`<span>${htmlEscape(part)}</span>`).join("")}</p><div class="event-rule"></div><h4 class="event-venue">${htmlEscape(e.venue)}</h4><p class="event-address">${htmlEscape(e.address)}</p>${e.mapsUrl?`<a class="map-link" href="${htmlEscape(e.mapsUrl)}" target="_blank" rel="noopener noreferrer">${htmlEscape(copy('eventMapButton'))} <span aria-hidden="true">↗</span></a>`:`<span class="map-pending">${htmlEscape(copy('eventMapPending'))}</span>`}</article>`).join('');
+ document.querySelector('#event-cards').innerHTML=events.map((e,i)=>`<article class="event-card" data-event="${htmlEscape(e.id)}"><div class="event-label"><span>${htmlEscape(copy(e.id==='ceremony'?'eventPromiseLabel':'eventCelebrationLabel'))}</span><span>0${i+1}</span></div><h3>${htmlEscape(window.weddingEventTitle(e))}</h3><p class="event-time">${eventDateLabel(e).split(" · ").map(part=>`<span>${htmlEscape(part)}</span>`).join("")}</p><div class="event-rule"></div><h4 class="event-venue">${htmlEscape(e.venue)}</h4><p class="event-address">${htmlEscape(e.address)}</p>${e.mapsUrl?`<a class="map-link" href="${htmlEscape(e.mapsUrl)}" target="_blank" rel="noopener noreferrer">${htmlEscape(copy('eventMapButton'))} <span aria-hidden="true">↗</span></a>`:e.mapsUrl===null&&!e.address?'':`<span class="map-pending">${htmlEscape(copy('eventMapPending'))}</span>`}</article>`).join('');
  window.weddingObserveMotion?.(document.querySelector('#event-cards'));
  const main=events.find(e=>e.start);clearInterval(countdownInterval);
  if(main){const target=new Date(main.start);document.querySelector('#wedding-date').textContent=dateFormat().format(target);const countDown=document.querySelector('#countdown');
  const tick=()=>{const difference=target-Date.now();if(difference<=0){countDown.hidden=true;document.querySelector('#date-note').textContent=copy('dateNoteFinished');return;}countDown.hidden=false;document.querySelector('#date-note').textContent=copy('dateNoteUpcoming');document.querySelector('#days').textContent=Math.floor(difference/86400000);document.querySelector('#hours').textContent=String(Math.floor(difference/3600000)%24).padStart(2,'0');document.querySelector('#minutes').textContent=String(Math.floor(difference/60000)%60).padStart(2,'0');document.querySelector('#seconds').textContent=String(Math.floor(difference/1000)%60).padStart(2,'0');};tick();countdownInterval=setInterval(tick,1000);}
- if(!main){document.querySelector('#countdown').hidden=true;document.querySelector('#wedding-date').textContent=events.length?dateFormat().format(new Date(events[0].date+'T12:00:00+07:00')):'';document.querySelector('#date-note').textContent=events.length?copy('dateNotePending'):'';}
+ if(!main){document.querySelector('#countdown').hidden=true;document.querySelector('#wedding-date').textContent=events.some(e=>e.time)?'[waktu]':(events.length?dateFormat().format(new Date(events[0].date+'T12:00:00+07:00')):'');document.querySelector('#date-note').textContent=events.some(e=>e.time)?'':(events.length?copy('dateNotePending'):'');}
  updateReminder();
 };
-if(window.WEDDING?.events)window.renderWeddingEvents(['/', '/index.html'].includes(location.pathname)?[window.WEDDING.events.celebration]:[]);
+if(window.WEDDING?.events)window.renderWeddingEvents(Object.values(window.WEDDING.events));
 document.querySelector('#save-calendar').addEventListener('click',()=>{
  const escapeICS=s=>String(s||'').replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\r?\n/g,'\\n');
  const utc=s=>new Date(s).toISOString().replace(/[-:]/g,'').replace(/\.\d{3}Z$/,'Z');

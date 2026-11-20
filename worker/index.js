@@ -2,9 +2,9 @@ import {journeyRoute} from './journey.js';
 import {analyzeGuestMessage} from './message-language.js';
 import {uploadRoute,verifiedProofKey} from './uploads.js';
 export const DEFAULT_EVENTS=[
- {id:'ceremony',title:'Pemberkatan Nikah',titleEn:'Holy Matrimony',date:'2026-12-12',start:'2026-12-12T14:00:00+07:00',end:null,venue:'Every Nation Surabaya — Fairway Nine',address:'Fairway Nine, Surabaya',mapsUrl:'https://www.google.com/maps/search/?api=1&query=Every%20Nation%20Surabaya%20Fairway%20Nine'},
- {id:'reception',title:'Resepsi I',titleEn:'Reception I',date:'2026-12-12',start:'2026-12-12T18:00:00+07:00',end:null,venue:'Double Happiness Restaurant',address:'Surabaya',mapsUrl:'https://www.google.com/maps/search/?api=1&query=Double%20Happiness%20Restaurant%20Surabaya'},
- {id:'celebration',title:'Resepsi II',titleEn:'Reception II',date:'2026-12-19',start:'2026-12-19T14:00:00+07:00',end:'2026-12-19T18:00:00+07:00',venue:'Griya Bhayangkara',address:'Griya Bhayangkara No.C4-11',mapsUrl:'https://maps.app.goo.gl/TtwFp6zktCk2CDi18'}
+ {id:'ceremony',title:'Acara 1',titleEn:'Event 1',date:'2026-12-12',time:'[waktu]',start:null,end:null,venue:'[tempat]',address:'',mapsUrl:null},
+ {id:'reception',title:'Acara 2',titleEn:'Event 2',date:'2026-12-12',time:'[waktu]',start:null,end:null,venue:'[tempat]',address:'',mapsUrl:null},
+ {id:'celebration',title:'Acara 3',titleEn:'Event 3',date:'2026-12-19',time:'[waktu]',start:null,end:null,venue:'[tempat]',address:'',mapsUrl:null}
 ];
 export const READING_SECTIONS=[{"id":"home","label":"Pembuka"},{"id":"undangan","label":"01 \u00b7 Undangan"},{"id":"mempelai","label":"02 \u00b7 Mempelai"},{"id":"momen","label":"03 \u00b7 Momen kami"},{"id":"acara","label":"04 \u00b7 Detail acara"},{"id":"rsvp","label":"05 \u00b7 Konfirmasi kehadiran"},{"id":"pesan","label":"06 \u00b7 Buku pesan"},{"id":"penutup","label":"Penutup"}];
 const CONTENT_KEYS=['heroScript','heroSubtitle','invitationHeading','invitationHeadingAccent','invitationIntro','memoHeading','memoHeadingAccent','memoBody','coupleHeading','coupleHeadingAccent','coupleBody1','coupleBody2','quoteHeading','quoteAccent','galleryIntro','eventsIntro','rsvpIntro','giftIntro','closingHeading','closingHeadingAccent','closingBody'];

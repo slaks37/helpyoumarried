@@ -80,7 +80,7 @@ test('bulk invitations validate duplicates and table seats before any row is wri
  assert.equal((await upload(Array.from({length:51},(_,index)=>({...rows[0],slug:'new-'+index,receptionTable:''})))).status,400);
 }finally{DB.close();}});
 
-test('reception II defaults to the requested address and map',()=>{assert.equal(DEFAULT_EVENTS[2].address,'Griya Bhayangkara No.C4-11');assert.equal(DEFAULT_EVENTS[2].mapsUrl,'https://maps.app.goo.gl/TtwFp6zktCk2CDi18');});
+test('reception II defaults to the requested address and map',()=>{assert.equal(DEFAULT_EVENTS[2].address,'');assert.equal(DEFAULT_EVENTS[2].mapsUrl,null);});
 
 test('admin can set and edit single or paired salutations without changing guest names or slugs',async()=>{const {DB,call}=await fixture();try{const created=await create(call,{guestName:'Triyono & Ribka',slug:'triyono-ribka',salutation:'bapak_ibu',eventIds:['celebration']});assert.equal(created.invitation.salutation,'bapak_ibu');const publicView=(await (await call('/api/invitation/triyono-ribka')).json()).invitation;assert.equal(publicView.guestName,'Triyono & Ribka');assert.equal(publicView.salutation,'bapak_ibu');const edited=await call('/api/admin/invitations/'+created.invitation.id,{method:'PATCH',headers:owner,body:{guestName:'Triyono & Ribka',salutation:'tuan_nyonya',seats:2,eventIds:['celebration'],active:true}});assert.equal(edited.status,200);assert.equal((await edited.json()).invitation.salutation,'tuan_nyonya');assert.equal((await call('/api/admin/invitations',{method:'POST',headers:owner,body:{guestName:'Invalid',slug:'invalid',salutation:'king',seats:1,eventIds:['ceremony']}})).status,400);}finally{DB.close();}});
 
@@ -285,7 +285,7 @@ test('legacy event names use Indonesian labels and Roman numerals without losing
   events[1].venue='Double Happiness International Restaurant';events[1].end='2026-12-12T21:00:00+07:00';
   await DB.prepare('INSERT INTO settings (key,value,updated_at) VALUES (?,?,?)').bind('events',JSON.stringify(events),new Date().toISOString()).run();
   const result=await (await call('/api/events')).json();
-  assert.deepEqual(result.events.map(e=>[e.title,e.titleEn]),[['Pemberkatan Nikah','Holy Matrimony'],['Resepsi I','Reception I'],['Resepsi II','Reception II']]);
+  assert.deepEqual(result.events.map(e=>[e.title,e.titleEn]),[['Acara 1','Event 1'],['Acara 2','Event 2'],['Acara 3','Event 3']]);
   assert.equal(result.events[1].venue,events[1].venue);assert.equal(result.events[1].end,events[1].end);
  }finally{DB.close();}
 });

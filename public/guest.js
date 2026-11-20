@@ -43,7 +43,7 @@ window.weddingGuestReady=(async()=>{
   });
  }
  if(!personal){
-  try{const [eventInfo,visitor]=await Promise.all([request('/api/events'),request('/api/visitor')]);const events=eventInfo.events.filter(event=>event.id==='celebration');const responses=(visitor.rsvp?.responses||[]).filter(response=>response.event_id==='celebration');window.renderWeddingEvents(events);$('[data-cms="heroSubtitle"]').hidden=true;$('#hero-invite-events').hidden=false;$('#hero-invite-events').textContent=events.map(event=>`${title(event)}\n${window.weddingEventDateLabel(event)}`).join('\n');enableRsvp({events,responses,name:visitor.rsvp?.name||''},{seats:20},{general:true,preview:visitor.preview});window.revealWedding();return {slug:'',preview:visitor.preview,authorized:true};}
+  try{const [eventInfo,visitor]=await Promise.all([request('/api/events'),request('/api/visitor')]);const events=eventInfo.events;const responses=(visitor.rsvp?.responses||[]);window.renderWeddingEvents(events);$('[data-cms="heroSubtitle"]').hidden=true;$('#hero-invite-events').hidden=false;$('#hero-invite-events').textContent=events.map(event=>`${title(event)}\n${window.weddingEventDateLabel(event)}`).join('\n');enableRsvp({events,responses,name:visitor.rsvp?.name||''},{seats:20},{general:true,preview:visitor.preview});window.revealWedding();return {slug:'',preview:visitor.preview,authorized:true};}
   catch(error){$('#rsvp-access-note').textContent=error.message;window.revealWedding();return {slug:'',authorized:false};}
  }
  $('#guest-name').textContent=ui('Menyiapkan undangan…','Preparing your invitation…');$('#memo-recipient').textContent=$('#guest-name').textContent;

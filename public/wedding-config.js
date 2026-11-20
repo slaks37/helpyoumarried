@@ -4,33 +4,39 @@ window.WEDDING = {
   "events": {
     "ceremony": {
       "id": "ceremony",
-      "title": "Holy Matrimony",
+      "title": "Acara 1",
+      "titleEn": "Event 1",
       "date": "2026-12-12",
-      "start": "2026-12-12T14:00:00+07:00",
+      "time": "[waktu]",
+      "start": null,
       "end": null,
-      "venue": "Every Nation Surabaya — Fairway Nine",
-      "address": "Fairway Nine, Surabaya",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Every%20Nation%20Surabaya%20Fairway%20Nine"
+      "venue": "[tempat]",
+      "address": "",
+      "mapsUrl": null
     },
     "reception": {
       "id": "reception",
-      "title": "Resepsi 1",
+      "title": "Acara 2",
+      "titleEn": "Event 2",
       "date": "2026-12-12",
-      "start": "2026-12-12T18:00:00+07:00",
+      "time": "[waktu]",
+      "start": null,
       "end": null,
-      "venue": "Double Happiness Restaurant",
-      "address": "Surabaya",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Double%20Happiness%20Restaurant%20Surabaya"
+      "venue": "[tempat]",
+      "address": "",
+      "mapsUrl": null
     },
     "celebration": {
       "id": "celebration",
-      "title": "Resepsi II",
+      "title": "Acara 3",
+      "titleEn": "Event 3",
       "date": "2026-12-19",
-      "start": "2026-12-19T14:00:00+07:00",
-      "end": "2026-12-19T18:00:00+07:00",
-      "venue": "Griya Bhayangkara",
-      "address": "Griya Bhayangkara No.C4-11",
-      "mapsUrl": "https://maps.app.goo.gl/TtwFp6zktCk2CDi18"
+      "time": "[waktu]",
+      "start": null,
+      "end": null,
+      "venue": "[tempat]",
+      "address": "",
+      "mapsUrl": null
     }
   }
 };
