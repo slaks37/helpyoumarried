@@ -233,7 +233,7 @@ window.WEDDING_TEXT_SECTIONS=[
   ['heroButton','Tombol buka undangan','Buka undangan'],
   ['heroRecipientLabel','Label nama penerima','TERUNTUK'],
   ['guestFallback','Nama penerima pada undangan umum','Keluarga & sahabat terkasih'],
-  ['heroFootnote','Catatan kecil pembuka','WITH LOVE, S & J'],
+  ['heroFootnote','Catatan kecil pembuka','WITH LOVE, (INISIAL MU & PASANGAN)'],
   ['heroPhotoTag','Tulisan pada foto pembuka',"OFFICIALLY, EACH OTHER'S."],
   ['heroPhotoCaption','Kalimat di bawah foto','Best partners. For life.'],
   ['heroPhotoDepartment','Label di bawah foto','THE FOREVER DEPARTMENT']
@@ -242,7 +242,7 @@ window.WEDDING_TEXT_SECTIONS=[
   ['invitationEyebrow','Label section undangan','01 / A LITTLE LOVE MEMO'],
   ['invitationHeading'],['invitationHeadingAccent'],['invitationIntro'],
   ['memoDepartment','Label memo','THE FOREVER DEPARTMENT'],
-  ['memoNumber','Nomor memo','NO. S&J / 001'],
+  ['memoNumber','Nomor memo','NO. (INISIAL MU & PASANGAN) / 001'],
   ['memoHeading'],['memoHeadingAccent'],['memoBody'],
   ['memoToLabel','Label penerima memo','To:'],
   ['memoFromLabel','Label pengirim memo','From:'],
